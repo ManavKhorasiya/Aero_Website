@@ -36,7 +36,7 @@
  }
 
 .rounded-social-buttons .fa-instagram {
-   font-size: 33px;
+   font-size: 30px;
 }
 
 
@@ -163,5 +163,13 @@
       height: 2.75rem !important;
       border-radius: 1.4876rem;
       font-size: 1.3625rem;
+   }
+   .rounded-social-buttons .fa-twitter, .fa-facebook, .fa-linkedin, .fa-youtube, .fa-instagram  {
+      font-size: 23px;
+   }
+
+   .rounded-social-buttons .fa-instagram {
+      font-size: 25px;
+      text-align: center;
    }
 }
