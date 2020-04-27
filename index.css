@@ -77,7 +77,7 @@ body {
      padding-left: 0px;
  }
  .hello1{
-    height: 720px;
+    height: 600px;
      width: 1250;
  }
  .hello2{
@@ -212,6 +212,11 @@ body {
     .bgr {
         background-size: 200% 100%;
         background-position : center;
+    }
+    .hello1 {
+        height: 400px;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     .hello5 {
         height: 350px;
