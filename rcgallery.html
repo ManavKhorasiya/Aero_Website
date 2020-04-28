@@ -6,7 +6,7 @@
         <meta name="keywords" content="DRISHTI,SVNIT,Aero,Engineering,technology,WE,ME,RC,Quadcopter,Magnus,Rocket,Plane">
         <meta name="description" content="Explore all aero projects implemented by DRISHTI,SVNIT">
         <title>
-            QUADCOPTER
+            RC PLANE GALLERY
         </title>
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -16,7 +16,6 @@
         <link rel="stylesheet" type="text/css" media="screen" href="index.css">
         <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
         <link rel="stylesheet" type="text/css" media="screen" href="rc.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="magnus.css">
         <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
         <script defer src="fontawesome-free-5.13.0-web/js/all.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css">
@@ -53,7 +52,7 @@
                                     <a href="rocket.html" class="dropdown-item" style="color: white;">
                                         ROCKET
                                     </a>
-                                    <a href="#" class="dropdown-item" style="color: white;">
+                                    <a href="quadcopter.html" class="dropdown-item" style="color: white;">
                                         QUADCOPTER
                                     </a>
                                     <a href="magnus.html" class="dropdown-item" style="color: white;">
@@ -61,7 +60,7 @@
                                     </a>
                                 </div>
                             </li>
-                        <li class="nav-item"style="font-weight: 800;"><a href="quadgallery.html" class="nav-link" style="color:black;">Gallery</a></li>
+                        <li class="nav-item"style="font-weight: 800;"><a href="#" class="nav-link" style="color:black;">Gallery</a></li>
                         <li class="nav-item"style="font-weight: 800;"><a href="#" class="nav-link" style="color:black;">Documentation</a></li>
                         <li class="nav-item"style="font-weight: bold;"><a href="index.html#down" class="nav-link" style="color:black;" id = "contact">Contact</a></li>
                     </ul>
@@ -72,27 +71,57 @@
 
         <div class="row">
             <div class="col-12 text-center h" style=" font-weight: bold; color: black;">
-                QUADCOPTER
+                RC PLANE 
             </div>
         </div>
 
-        <div class="cont" style="margin-top: 0%;">
-            <div class="row justify-content-center" style = " padding-top: 2%;">
-                <div class="col-lg-10 col-md-12 text-center">
-                    <p class="txt1" style="text-align: justify;padding-top: 5px;">We developed Simulink based quadcopter simulation which  is intended to reduce cost and 
-                        running a simulation will represent dynamic performance of your vehicle. The simulation is intended to act as a sort of starter kit 
-                        to help accelerate you towards the goals of speeding up the process of system design and provide one with tools to explore quadcopter 
-                        control design techniques. The simulation represents a synthesis of several author’s approaches to modeling the behavior of a quadcopter, 
-                        with a little bit of additional modeling added. Many important effects (most obviously aerodynamic effects such as blade flapping) are 
-                        ignored or dramatically simplified, so one will need to make sure to understand the limitations of the model in order to get reliable 
-                        service out of it. Since it is written in Simulink and MATLAB code.</p>
-                    <img src="images/quad.jpg" class="main_photo">
+        <div id="myslideshow" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="2000">
+            <indicators>
+              <ol class="carousel-indicators">
+                  <li class="active" data-target="#myslideshow" data-slide-to="0"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                  <li class="active" data-target="#myslideshow" data-slide-to="1"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                  <li class="active" data-target="#myslideshow" data-slide-to="2"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                  <li class="active" data-target="#myslideshow" data-slide-to="3"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                  <li class="active" data-target="#myslideshow" data-slide-to="4"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                  <li class="active" data-target="#myslideshow" data-slide-to="5"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                </ol>
+          </indicators>
+              <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                      <img class="img-fluid hello1" src="images/aero1.jpg" >
+                     
+                 </div>
+                 <div class="carousel-item text-center">
+                    <img class="img-fluid hello1" src="images/aero2.jpg">
+                   
+                 </div>
+                 <div class="carousel-item text-center">
+                    <img class="img-fluid hello1" src="images/aero3_1.jpg">
+                   
+                 </div>
+                 <div class="carousel-item text-center">
+                    <img class="img-fluid hello1" src="images/aero4.jpg" >
                 </div>
-            </div>
-        </div>
+                 <div class="carousel-item text-center">
+                    <img class="img-fluid hello1" src="images/rc.jpg" >
+                 </div>
+                 <div class="carousel-item text-center">
+                    <img class="img-fluid hello2" src="images/aero5.jpg" >
+                 </div>
+              </div>
+              <!--controls-->
+              <a href="#myslideshow" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" style = "background-color:black"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a href="#myslideshow" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" style = "background-color:black"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div> 
         <br>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </html>
