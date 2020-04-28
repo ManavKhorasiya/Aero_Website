@@ -85,7 +85,7 @@ body {
      width: 500px;
  }
  .hello3{
-    height: 720px;
+    height: 600px;
      width: 1300;
  }
 .hello5 {
@@ -227,6 +227,16 @@ body {
         padding-left: 5%;
     }
 
+    .hello3 {
+        height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
     .hello5 {
         width: 50%;
         height: 350px;
@@ -268,6 +278,15 @@ body {
         width: 400px;
         padding-right: 5%;
         padding-left: 5%;
+    }
+
+    .hello3 {
+        height: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .hello5 {
@@ -391,8 +410,17 @@ body {
         margin-right: auto;
     }
 
+    .hello3 {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
     .hello5 {
-        width: 70%;
+        width: 90%;
         margin-top: 0px;
         margin-bottom: 0px;
         
