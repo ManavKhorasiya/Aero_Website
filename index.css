@@ -197,6 +197,15 @@ body {
     width: 50%;
 }
 
+.main{
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* padding-top: 2%; */
+    /* padding-bottom: 2%; */
+}
+
 .main_photo {
     height: 500px;
     margin-left: auto;
@@ -214,6 +223,16 @@ body {
         background-size: 200% 100%;
         background-position : center;
     }
+
+    .main {
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+
     .hello1 {
         height: 400px;
         padding-right: 5%;
@@ -267,6 +286,15 @@ body {
         background-position : center;
     }
     
+    .main {
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+
     .hello1 {
         height: 400px;
         padding-right: 5%;
@@ -392,6 +420,16 @@ body {
         padding-bottom: 2%;
     }
 
+    .main {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+
+
     .h {
         font-size: 40px;
     }
@@ -450,3 +488,15 @@ body {
     
 }
 
+
+@media(max-width : 380px) {
+    .main {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+        margin-bottom: 0%;
+    }
+}
