@@ -170,8 +170,10 @@ body {
 
 .svnit_photo {
     height:100px;
-    width:200px;
+    width:180px;
     margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .tensegrity_photo {
