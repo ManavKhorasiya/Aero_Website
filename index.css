@@ -169,9 +169,9 @@ body {
 }
 
 .svnit_photo {
-    height:100px;
-    /* width:180px; */
-    width: auto;
+    /* height:100px; */
+    width:180px;
+    height: auto;
     margin-left: 5%;
     margin-top: 0;
     margin-bottom: 0;
@@ -412,7 +412,8 @@ body {
     .svnit_photo {
         margin-left: 0%;
         height: 75px;
-        width: 100px;
+        /* width: 100px; */
+        width: auto;
     }
     .main_photo {
         height: 200px;
