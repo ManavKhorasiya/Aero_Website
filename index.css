@@ -411,9 +411,9 @@ body {
     }
     .svnit_photo {
         margin-left: 0%;
-        height: 75px;
-        /* width: 100px; */
-        width: auto;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
     }
     .main_photo {
         height: 200px;
