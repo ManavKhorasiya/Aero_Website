@@ -169,6 +169,7 @@ body {
 }
 
 .svnit_photo {
+    /* height:100px; */
     width:180px;
     height: auto;
     margin-left: 5%;
